@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Ejs JS 26-10</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Ejercicios JS 26-10</h1>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="maincont">
+            <div>
+                <p class="bold">    
+                    Utilizando la respuesta de users de JSONPlaceholder - Recurso #1 -, mostrar el
+                    resultado por consola utilizando template strings de los siguientes pedidos:
+                </p>
+
+                <ol>
+                    <li>Recorrer el array, recuperar el nombre del usuario y asignarle su id.</li>
+                    <li>Recorrer el array y armar un texto mostrando el nombre del usuario, su
+                        correo y su teléfono.</li>
+                    <li>Recorrer el array y armar un texto mostrando el nombre de su compañía y su
+                        frase clave.</li>
+                    <li>Mientras el id de usuario sea menor que 5, mostrar la localidad con su
+                        latitud y longitud</li>
+                    <li>Hacer un switch que le pida al usuario ingresar números comprendidos entre
+                        el 1 y el 10 (correspondiente a los id) y, acorde al dato ingresado, mostrar
+                        toda la información del user seleccionado en una oración con coherencia y
+                        cohesión</li>
+                    <li>Al finalizar las primeras cinco actividades:
+                        <ol>
+                            <li style="list-style-type: a;">Remover el último elemento</li>
+                            <li style="list-style-type: a;">Agregar un elemento con las mismas keys al final</li>
+                            <li style="list-style-type: a;">Remover el primer elemento</li>
+                            <li style="list-style-type: a;">Agregar un elemento con las mismas keys al principio</li>
+                            <li style="list-style-type: a;">Buscar un elemento que tenga el username “kamren” y, si
+                                existe,
+                                devolver el nombre, el username y el correo. Para la búsqueda del
+                                username, implementar los métodos toLowerCase() o toUpperCase()</li>
+                        </ol>
+                    </li>
+                </ol>
+            </div>
+
+            <div>
+                <p class="bold">
+                    Utilizando la respuesta de products de FakeStoreApi- Recurso #2 -, mostrar el
+                    resultado por consola utilizando template strings de los siguientes pedidos:
+                </p>
+                <ol>
+                    <li>Recorrer el array, recuperar el nombre del producto y asignarle su id.</li>
+                    <li>Recuperar el nombre del producto, la categoría, el precio en usd y el rate
+                        que tiene dicho producto.</li>
+                    <li>Mostrar el nombre y precio de los productos que tienen un rate entre 1.8 y
+                        3.2</li>
+                    <li>Mostrar el nombre y precio de los productos que tienen un precio mayor a 150</li>
+                    <li>Mostrar el nombre y rate de los productos que tienen un precio menor a 150</li>
+                </ol>
+            </div>
+
+            <div>
+                <p class="bold">
+                    Utilizando la respuesta de characters de Rick & Morty API - Recurso #3 -, mostrar
+                    el resultado por consola utilizando template strings de los siguientes pedidos:
+                </p>
+                <ol>
+                    <li>Mostrar el nombre del personaje, su especie, el nombre de su lugar de origen
+                        y la cantidad episodios en los que aparece</li>
+                    <li>¿Cuáles son las claves que figuran dentro de la clave “info”? Buscar el
+                        método aplicable a objetos que permite mostrar esta info</li>
+                    <li>¿Cuáles son los valores de las claves mostradas en el ítem anterior? Buscar
+                        el método aplicable a objetos que permite mostrar esta info</li>
+                </ol>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="./script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
